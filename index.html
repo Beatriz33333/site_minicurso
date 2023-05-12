@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site_insetos</title>
+    <link rel="stylesheet" href="site.index.css"> 
 </head>
 
 
@@ -12,9 +13,9 @@
     <header>
         <h1> <center><big>INSETOS </big></center></h1>
         <center>
-         <img src="https://thumbs.dreamstime.com/b/cole%C3%A7%C3%A3o-de-insetos-esbo%C3%A7os-manuais-besouros-rola-botas-borboletas-lib%C3%A9lulas-mariposas-lib%C3%A9lula-cicada-s%C3%A3o-colocadas-no-233784010.jpg" alt="principal">
+         <img class="fotomain" src="https://thumbs.dreamstime.com/b/cole%C3%A7%C3%A3o-de-insetos-esbo%C3%A7os-manuais-besouros-rola-botas-borboletas-lib%C3%A9lulas-mariposas-lib%C3%A9lula-cicada-s%C3%A3o-colocadas-no-233784010.jpg" alt="principal">
         </center>
-        <h2><center><big><strong>Venha aprender sobre uma variedade de insetos</strong></big></center></h2>
+        <h2 class="semi_titulo"><center><big><strong>Venha aprender sobre uma variedade de insetos</strong></big></center></h2>
     </header>
 
 
@@ -62,7 +63,7 @@
         <section>
             <center>
             <br><br><br><br><br><br><br>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Chenille_de_Grand_porte_queue_%28macaon%29_Fausses_pattes.jpg/1280px-Chenille_de_Grand_porte_queue_%28macaon%29_Fausses_pattes.jpg" alt="lagartas" usemap="#lagartas">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKr9PBkvlkUtwS28qva95wTugUnpdVez0XcQ&usqp=CAU" alt="lagartas" usemap="#lagartas">
             <map name="lagartas">
                 <area shape="rect" coords="6,3,283,168" title="Lagarta" href="https://pt.wikipedia.org/wiki/Lagarta">
             </map>
@@ -271,14 +272,9 @@
             </map>
             <div>
                 <h2>PERCEVEJO</h2>
-                <p>
-                   Alguns tipos da epécie são:
-                   <button class="menu-toggle">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                   <ul class="menu">
+                <p>TIPOS DE PERCEVEJOS</p>
+                <details>
+                   <ul<summary>
                     <li>Percevejo de cama</li>
                     <li>Percevejo doméstico </li>
                     <li>Heteroptera </li>
@@ -288,26 +284,12 @@
                     <li>Percevejo d'água</li>
                     <li>Percevejo da soja</li>
                     <li>Percevejo do arroz</li>
-                    </ul>
+                    </ul</summary>
+                </details>
                 </p>
             </div>
             </center>
         </section>
-
-
-        <srcipt>
-            var toggleButton = document.querySelector('.menu-toggle');
-            var menu = document.querySelector('.menu');
-           
-            toggleButton.addEventListener('click', function() {
-              if (menu.style.display === 'block') {
-                menu.style.display = 'none';
-              } else {
-                menu.style.display = 'block';
-              }
-            });
-        </srcipt>
-
 
         <section>
             <center>
@@ -354,7 +336,7 @@
         <section>
             <center>
             <br><br><br><br><br><br><br>
-            <img scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGMfL6Q0Qu1f4CAs9ftChXwURg220mVommbQ&usqp=CAU" alt="carrapato" usemap="#carrapato">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGMfL6Q0Qu1f4CAs9ftChXwURg220mVommbQ&usqp=CAU" alt="carrapato" usemap="#carrapato">
             <map name="carrapato">
                 <area shape="rect" coords="3,3,272,176" title="Carrapato" href="https://pt.wikipedia.org/wiki/Carrapato">
             </map>
@@ -417,8 +399,9 @@
 
 
     <footer>
-        <br><br><br><br><br><br><br>
+        <br><br><br>
          <p><center>feito por Beatriz Guimarães Gonçalves</center></p>
+         <br><br><br>
     </footer>
 </body>
 </html>
