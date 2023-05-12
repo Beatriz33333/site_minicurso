@@ -1,0 +1,18 @@
+.fotomain{
+    height: 500px;
+    width: 1500px;
+}
+.semi_titulo{
+    color: black;
+    font-style: normal;
+}
+h2{
+  color: gray;
+  font-style: oblique;
+}
+html{
+    background-color: rgb(245, 215, 131);
+}
+footer{
+    background-color: rgb(113, 0, 179);
+}
