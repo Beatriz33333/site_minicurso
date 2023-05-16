@@ -1,6 +1,7 @@
 .fotomain{
     height: 500px;
     width: 1500px;
+    mix-blend-mode: color-burn;
 }
 .semi_titulo{
     color: black;
